@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="DE79176A-94C2-5959-4EC4-707BBA44732E">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:38:00 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

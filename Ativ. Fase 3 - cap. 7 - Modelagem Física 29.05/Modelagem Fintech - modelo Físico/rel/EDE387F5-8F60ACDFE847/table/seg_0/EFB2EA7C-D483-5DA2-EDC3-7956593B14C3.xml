@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFB2EA7C-D483-5DA2-EDC3-7956593B14C3" name="T_NOTICIAS">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>1924864E-C04C-4A1F-02FB-8ED561EFF0F0</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_noticia" id="2C0E889E-E5D7-A464-7D3A-06FA5358A352">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>F809D0E4-A1E9-F3F9-C974-42D32FBBC67F</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_conteudo" id="501CAB8B-A1EB-86D7-7CE8-EEA4DD414A5A">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>D6C334A9-B17E-1966-1986-5641E3DA2CE0</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_noticia" id="D1671607-DAF7-E6C8-9EF4-9A90C9ADE5BB">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>FA86BA21-55B6-36D4-E91A-D6A0A9511C61</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA40B367-A59B-DAC4-5AB3-A96268AC1791" name="T_NOTICIAS_PK">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>24B9C651-09C4-F3E4-C943-3E595EAFFADB</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C0E889E-E5D7-A464-7D3A-06FA5358A352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

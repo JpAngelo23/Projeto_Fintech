@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="EB3C1D3E-7153-5790-1A21-6FFAC1F0C48B">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:38:00 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

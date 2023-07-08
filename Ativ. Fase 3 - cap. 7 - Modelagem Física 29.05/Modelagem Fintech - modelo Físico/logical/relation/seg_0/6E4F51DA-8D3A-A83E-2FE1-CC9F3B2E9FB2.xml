@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="6E4F51DA-8D3A-A83E-2FE1-CC9F3B2E9FB2">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:59:21 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<sourcePk>B26D358D-F53A-6202-D0EA-61071733197D</sourcePk>
+<dominantRole>471BA585-1610-9443-BA59-D8A1564D136C</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>471BA585-1610-9443-BA59-D8A1564D136C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3283F837-CB17-3FC0-9F46-9B4C1CB5F0CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

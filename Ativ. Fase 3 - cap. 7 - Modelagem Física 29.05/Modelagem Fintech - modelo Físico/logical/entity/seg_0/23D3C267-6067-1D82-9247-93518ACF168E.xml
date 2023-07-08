@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23D3C267-6067-1D82-9247-93518ACF168E" name="T_CONTROLE">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:39:37 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gasto" id="531984F8-3911-63C8-8403-F041606B2F7D">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:51:36 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="BF46A168-2F49-A899-86F1-B9641330C763">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 12:09:24 UTC</createdTime>
+<generatorID>B8F6CC02-56CC-C3AF-8531-2DAB35CD42A3</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<referedAttribute>2B32751D-C12D-B3CA-0E7D-94E5DA76D4D8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_despesa" id="920E3BFF-0687-9A52-71BC-CE938C275779">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:51:51 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_despesa" id="A278D1B6-1494-2574-44E0-9C0B380BC93C">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:52:16 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15B22C5F-3E15-9F06-E330-DE2870953696" name="T_CONTROLE PK">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:51:48 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>531984F8-3911-63C8-8403-F041606B2F7D</attributeRef>
+<attributeRef>BF46A168-2F49-A899-86F1-B9641330C763</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

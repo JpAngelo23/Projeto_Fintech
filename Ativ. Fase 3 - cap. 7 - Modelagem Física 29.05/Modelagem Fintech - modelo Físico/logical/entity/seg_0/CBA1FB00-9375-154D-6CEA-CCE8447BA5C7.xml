@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBA1FB00-9375-154D-6CEA-CCE8447BA5C7" name="T_COTACOES">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:41:25 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cotacao" id="9D235522-4902-B531-AB56-A3FEE63C2952">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:56:45 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_ativo" id="CC39644B-F7D5-3E52-3B6A-BB968E9CD194">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:56:54 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cotacao" id="0DCC5FDA-D838-0634-942F-A3D24E370DA7">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:57:03 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_atual" id="77A355C3-2D94-F47C-620E-99652C2678B6">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:57:11 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hr_cotacao" id="AE528723-097C-CEE4-300B-1C2E93D853B8">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:57:19 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8F8A53A-15B9-FF9F-D2F5-3DECA32A82C8" name="T_COTACOES PK">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:56:51 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D235522-4902-B531-AB56-A3FEE63C2952</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

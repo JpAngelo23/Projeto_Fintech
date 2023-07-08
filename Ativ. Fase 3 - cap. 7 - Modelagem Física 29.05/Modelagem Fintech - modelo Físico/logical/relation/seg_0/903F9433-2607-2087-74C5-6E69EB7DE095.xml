@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="903F9433-2607-2087-74C5-6E69EB7DE095">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 12:49:53 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<sourcePk>B26D358D-F53A-6202-D0EA-61071733197D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>471BA585-1610-9443-BA59-D8A1564D136C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>405E10B5-16DE-BD7C-ADB5-B6A80A7C20A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC7776C3-1FC8-762D-2C06-CA8853F3B28F" containerWithKeyObject="CAAB9453-224F-6273-8E4F-7FD00C46A090" localFKIndex="EC9295BF-FA6E-C12C-2D25-296683123A53" name="T_COMPRA_T_PRODUTO_FK">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>3545B62C-3B94-6F08-7BF0-74F4234426FE</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<referredTableLongName>T_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E562C75-3576-92D6-1B09-D1B3CB8B1345</referredTableID>
+<keyObject>AB418338-B53C-366E-F25B-6BCD1524DC90</keyObject>
+<referredKeyID>AB418338-B53C-366E-F25B-6BCD1524DC90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_produto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

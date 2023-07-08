@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelagem Fintech - modelo Físico" id="CD17F23E-DBF0-84DE-B7AB-3DCBFA15B6B1" version="3.5">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:38:00 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CD17F23E-DBF0-84DE-B7AB-3DCBFA15B6B1</designId>
+</OSDM_Design>

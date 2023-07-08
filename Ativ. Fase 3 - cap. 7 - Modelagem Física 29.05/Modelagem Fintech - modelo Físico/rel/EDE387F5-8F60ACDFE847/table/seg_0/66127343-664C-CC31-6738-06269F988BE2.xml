@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66127343-664C-CC31-6738-06269F988BE2" name="T_INTERESSES">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>405E10B5-16DE-BD7C-ADB5-B6A80A7C20A2</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USUARIO_id_usuario" id="D7648075-D694-B169-4D9C-9042655FC7C3">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>3C907A50-9E67-92F8-CDAE-A4C7F70A5951</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE5D7243-6B3F-CC19-01A7-7898FD7EAA4B" referredColumn="E14643E1-1104-101E-4469-B7161287AD44"/>
+</associations>
+</Column>
+<Column name="T_NOTICIAS_id_noticia" id="F0899ECF-53CF-5484-DBE0-5C1BE52AA2DD">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>63AFF578-566E-34BE-BC03-94BDDF1F1220</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26D609DF-3B47-CAC0-7C7C-FCCF1637F59F" referredColumn="2C0E889E-E5D7-A464-7D3A-06FA5358A352"/>
+</associations>
+</Column>
+<Column name="dt_visao" id="6CABC979-0BFB-DAB4-7429-164BFB44A4D0">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>CA4EAB79-D34B-E4B9-6BBD-30B3425C0C85</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CA4D416-7082-7975-8A47-16ECE60EF917" name="T_INTERESSES_T_NOTICIAS_FK">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>E7B60E1A-3F69-0EB8-4732-8F368CE2D01C</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0899ECF-53CF-5484-DBE0-5C1BE52AA2DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E3E40CD-A8F3-1BCB-24B3-3485DF472AD5" name="T_INTERESSES_T_USUARIO_FK">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 13:37:44 UTC</createdTime>
+<generatorID>903F9433-2607-2087-74C5-6E69EB7DE095</generatorID>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7648075-D694-B169-4D9C-9042655FC7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

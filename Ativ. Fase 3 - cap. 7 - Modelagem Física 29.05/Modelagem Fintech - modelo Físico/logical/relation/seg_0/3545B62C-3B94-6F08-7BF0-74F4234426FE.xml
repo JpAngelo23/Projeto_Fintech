@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="adquirir" directorySegmentName="seg_0" id="3545B62C-3B94-6F08-7BF0-74F4234426FE">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 12:39:49 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<targetPk>B9E7E553-5E37-2FA0-101F-30AE7576BAD1</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BA611324-1D1B-4916-9B2A-2CE6EA926958</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3EF15735-703B-E9AC-097D-061D10C07138</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

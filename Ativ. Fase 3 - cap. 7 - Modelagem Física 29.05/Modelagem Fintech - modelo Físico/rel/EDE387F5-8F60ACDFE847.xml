@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="EDE387F5-12F6-7037-FC61-8F60ACDFE847" mainViewID="E8595EBB-4FAE-ED08-8EA4-20609E3BC28B">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 11:38:02 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

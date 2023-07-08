@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="saber" directorySegmentName="seg_0" id="9BCB6956-5BE2-18A7-B0CF-415E70A138EC">
+<createdBy>jpang</createdBy>
+<createdTime>2023-05-29 12:55:04 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - modelo Físico</ownerDesignName>
+<engineerTo>
+<item key="EDE387F5-12F6-7037-FC61-8F60ACDFE847" value="true"/>
+</engineerTo>
+<targetPk>F8F8A53A-15B9-FF9F-D2F5-3DECA32A82C8</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>40428FB2-5A92-BFAB-4923-2EB846B64EBC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CBA1FB00-9375-154D-6CEA-CCE8447BA5C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
